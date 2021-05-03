@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="src/stylesheets/style.css" />
+    <!-- Fonts, icons, etc. -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="wrapper">
+                <h1 class="logo"><a href="#">Kelp</a></h1>
+                <!-- Responsive Navigation bar -->
+                <a href="javascript:void(0);" id="nav-btn" onclick="responsive();">&#9776;</a>
+                <nav id="nav-container">
+                    <ul class="topnav" id="navbar">
+                        <li class="dropdown" id="subnav">
+                            <a href="#" class="dropbtn" onclick="openSubNav();">Module 1 <i class="arrow down"></i></a>
+                            <div class="dropdown-content" id="dropdown-content">
+                                <a href="#">All</a>
+                                <a href="#">Category 1</a>
+                                <a href="#">Category 2</a>
+                                <a href="#">Category 3</a>
+                            </div>
+                        </li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!-- Main. Duplicate section if needed. -->
+            <section>
+                <div class="wrapper">
+                    <!-- Content goes here. -->
+                    <h1>hello, world!</h1>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <!-- Social links footer -->
+        <div class="wrapper">
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+            <h4>&copy; sUIts</h4>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="src/javascripts/script.js"></script>
+</body>
+
+</html>
